@@ -1,0 +1,45 @@
+.work{
+    margin-top: 80px;
+    .work__wrapper{
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        .work__card{
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .work__card img{
+            width: 80px;
+            height: 70px;
+        }
+    }
+    button{
+        margin-top: 50px;
+        width: 217px;
+        height: 56px;
+        border-radius: 8px;
+        background: $bg-py;
+        color: $bg-light;
+        border: none;
+    }
+    button:hover{
+        background: $bg-green;
+    }
+    button:active{
+        transform: translate(7px, 7px);
+        box-shadow: 0 0 20px $bg-sy;
+    }
+}
+
+@media (max-width:500px) {
+    .work{
+        .work__wrapper{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.container{
+    max-width: 1192px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+}
+button{
+    cursor: pointer;
+}
+img{
+    width: 100%;
+}
+input{
+    outline: none;
+}
+.text__lg{
+    color: $bg-light;
+    font-size: 70px;
+    font-weight: 800;
+}
+.text__sm{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(254, 252, 247, 1);
+}
+.text__md{
+    font-size: 25px;
+    font-weight: 600;
+    color: #090909
+}
